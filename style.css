@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #e6bbfa;
+    color: #000000;
+    padding: 10px 0;  
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;  
+}
+
+nav ul li a:hover {
+    color: #008CBA;
+}
+
+nav ul li a i {
+    font-size: 20px;  
+}
+
+
+#inicio {
+    background-color: #dba2f5;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#inicio h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 1.2em;
+}
+
+
+section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#sobre {
+    background-color: #fff;
+    color: #333;
+}
+
+#sobre h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.sobre-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.sobre-texto {
+    flex: 1;
+    font-size: 1.2em;
+}
+
+.sobre-imagem {
+    flex: 1;
+    text-align: center;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#projetos {
+    background-color: #f9f9f9;
+}
+
+#projetos h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.projeto {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projeto h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.projeto-conteudo {
+    display: flex;
+    gap: 20px;
+}
+
+.projeto-conteudo img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projeto-conteudo p {
+    font-size: 1.1em;
+    flex: 1;
+}
+
+
+#contato {
+    background-color: #fff;
+}
+
+#contato h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #dba2f5; 
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #dba2f5; 
+}
+
+
+footer {
+    background-color:#dba2f5; 
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
